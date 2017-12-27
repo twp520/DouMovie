@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_160"
+    android:layout_margin="@dimen/dimen_05"
+    android:layout_marginTop="@dimen/dimen_10"
+    android:elevation="@dimen/dimen_04">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_10">
+
+        <ImageView
+            android:id="@+id/item_hot_screen_image"
+            android:layout_width="@dimen/dimen_100"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:transitionName="@string/t_movie_list_to_detail"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimen_10"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_hot_screen_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="芳华"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_item_title"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/item_hot_screen_rating"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_05"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:progressTint="@color/item_hot_screen_rating"
+                android:rating="1.5"
+                android:stepSize="0.5" />
+
+            <TextView
+                android:id="@+id/item_hot_screen_dy"
+                style="@style/item_hot_screen_text"
+                android:text="导演：冯小刚" />
+
+            <TextView
+                android:id="@+id/item_hot_screen_actor"
+                style="@style/item_hot_screen_text"
+                android:text="主演：黄轩 / 苗苗 / 钟楚曦" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dimen_70"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_hot_screen_watch_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_20"
+                android:text="10.0万人看过"
+                android:textColor="@color/item_hot_screen_btn"
+                android:textSize="@dimen/text_size_item_tip" />
+
+            <Button
+                android:id="@+id/item_hot_screen_btn"
+                android:layout_width="@dimen/dimen_60"
+                android:layout_height="@dimen/dimen_30"
+                android:layout_marginTop="@dimen/dimen_05"
+                android:background="@drawable/selector_item_hot_screen_btn"
+                android:text="购票"
+                android:textColor="@color/selector_item_hot_screen_btn_text"
+                android:textSize="@dimen/text_size_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

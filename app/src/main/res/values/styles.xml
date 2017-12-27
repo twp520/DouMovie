@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+
+    <style name="item_hot_screen_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_05</item>
+        <item name="android:layout_marginTop">@dimen/dimen_05</item>
+        <item name="android:textSize">@dimen/text_size_item_tip</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+
+    <style name="movieDetailExTitle">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="movieDetailTextInfo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_tip</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/dimen_03</item>
+    </style>
+
+    <style name="movieDetailWatchBtn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/dimen_40</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_movie_detail_watch_btn_bg</item>
+        <item name="android:textColor">@color/selector_movie_detail_watch_btn_text</item>
+        <item name="android:textSize">@dimen/text_size_content</item>
+    </style>
+
+    <style name="movieDetailTipText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_tip</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:layout_marginTop">@dimen/dimen_30</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_20</item>
+    </style>
+
+    <style name="movieDetailRatingFragmentProgress" parent="android:Widget.Material.ProgressBar.Horizontal">
+        <item name="android:progressBackgroundTint">@color/withe</item>
+        <item name="android:layout_width">@dimen/dimen_200</item>
+        <item name="android:layout_height">@dimen/dimen_18</item>
+        <item name="android:max">100</item>
+    </style>
+</resources>

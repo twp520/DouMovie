@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dimen_20">
+
+    <ImageView
+        android:id="@+id/item_movie_detail_comment_icon"
+        android:layout_width="@dimen/dimen_40"
+        android:layout_height="@dimen/dimen_40"
+        android:layout_marginRight="@dimen/dimen_15"
+        android:layout_marginTop="@dimen/dimen_01"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/item_movie_detail_comment_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_movie_detail_comment_icon"
+        android:text="藏地情人"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_item_title" />
+
+    <RatingBar
+        android:id="@+id/item_movie_detail_comment_rating"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_10"
+        android:layout_marginTop="@dimen/dimen_01"
+        android:layout_toRightOf="@id/item_movie_detail_comment_name"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:progressTint="@color/movie_detail_rating"
+        android:rating="4"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/item_movie_detail_comment_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_movie_detail_comment_name"
+        android:layout_marginTop="@dimen/dimen_05"
+        android:layout_toRightOf="@id/item_movie_detail_comment_icon"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size_item_content" />
+
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BF32</color>
+    <color name="colorPrimaryDark">#00BF32</color>
+    <color name="colorAccent">#00BF32</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="themColor">#00BF32</color>
+    <color name="withe">#FFFFFF</color>
+    <color name="withe8">#FFFFFFFF</color>
+    <color name="text_color">#666666</color>
+    <color name="black">#000000</color>
+    <color name="eeee">#eeeeee</color>
+
+    <!-- 正在热映-->
+    <color name="item_hot_screen_btn">#ff4081</color>
+    <color name="item_hot_screen_rating">#ffd54f</color>
+
+    <color name="item_hot_screen_rating_bg">#f5f5f5</color>
+
+    <color name="movie_detail_rating">#ffb300</color>
+    <color name="test">#2797a0</color>
+
+    <color name="refreshColor1">#5af158</color>
+    <color name="refreshColor2">#14e715</color>
+    <color name="refreshColor3">#12c700</color>
+</resources>

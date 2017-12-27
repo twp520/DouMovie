@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_130">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/movie_detail_info_genres"
+            style="@style/movieDetailTextInfo" />
+
+        <TextView
+            android:id="@+id/movie_detail_info_original_title"
+            style="@style/movieDetailTextInfo"/>
+
+        <TextView
+            android:id="@+id/movie_detail_info_pubdata"
+            style="@style/movieDetailTextInfo" />
+
+        <TextView
+            android:id="@+id/movie_detail_info_durations"
+            style="@style/movieDetailTextInfo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/movie_detail_rating_layout"
+        android:layout_width="@dimen/dimen_100"
+        android:layout_height="@dimen/dimen_110"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dimen_20"
+        android:background="@drawable/shape_movie_detail_rating_bg"
+        android:elevation="@dimen/dimen_05"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_detail_rating_title"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size_item_tip" />
+
+        <TextView
+            android:id="@+id/movie_detail_rating_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/movie_detail_rating_rating"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_05"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:progressTint="@color/movie_detail_rating"
+            android:stepSize="0.5" />
+
+        <TextView
+            android:id="@+id/movie_detail_rating_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_02"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/text_size_item_tip" />
+
+    </LinearLayout>
+
+</RelativeLayout>

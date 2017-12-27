@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/withe" />
+</shape><!--<ripple xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:color="#8000BF32">--><!--<item--><!--android:id="@android:id/mask"--><!--android:drawable="@color/withe8" />--><!--</ripple>-->

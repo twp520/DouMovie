@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_menu_hot"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@drawable/menu_icon_movie"
+            android:title="@string/menu_hot" />
+        <item
+            android:id="@+id/main_menu_sensor"
+            android:checkable="true"
+            android:icon="@drawable/direction"
+            android:title="@string/menu_sensor" />
+
+        <item
+            android:id="@+id/main_menu_find"
+            android:checkable="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/menu_find" />
+    </group>
+</menu>
